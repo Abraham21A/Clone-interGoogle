@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: arial, sans-serif;
+}
+
+body {
+    background-color: #fff;
+    height: 100vh;
+    max-height: 100vh;
+    color: #202124;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 7px;
+}
+
+nav div {
+    padding: 6px;
+    margin: 4px;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.nav-img {
+    color: #5b5b5b;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-img:hover {
+    background-color: #e3e0e0;
+    border-radius: 50%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    height: calc(100vh - 250px);
+}
+
+.container .search-bar {
+    display: flex;
+    border: 1px solid #cfd1d4;
+    border-radius: 40px;
+    width: 600px;
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.container .search-bar:hover {
+    border: 1px solid #dfe1e5 !important;
+    box-shadow: 0px 1px 9px 1px rgba(138, 137, 137, 0.44);
+}
+
+.container .search-bar .icons-search {
+    font-size: 15px;
+    color: #8c8c8c;
+    align-self: center;
+    justify-content: center;
+    padding: 0px 10px 0px 10px;
+}
+
+.container .search-bar .box-search {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.container .search-bar input {
+    all: unset;
+    color: #000;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+.container .button-container {
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.container .button-container button {
+    all: unset;
+    background-color: #f2f2f2;
+    padding: 8px 15px 8px 15px;
+    border-radius: 4px;
+    color: #3c4043;
+    cursor: pointer;
+}
+
+.container .button-container button:hover {
+    border: 1px solid rgb(195, 195, 195);
+}
+
+.google-offer:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    background-color: #f2f2f2;
+    color: #70757a;
+    width: 100%;
+}
+
+footer .footer-one {
+    padding: 20px;
+    border-bottom: 1px solid #dadce0;
+}
+
+footer .footer-two {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+footer div .links div {
+    padding: 10px;
+}
+
+footer div .links div:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
